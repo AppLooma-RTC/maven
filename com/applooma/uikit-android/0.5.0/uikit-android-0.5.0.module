@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.applooma",
+    "module": "uikit-android",
+    "version": "0.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.applooma",
+          "module": "rtc-android",
+          "version": {
+            "requires": "0.9.2"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.09.03"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uikit-android-0.5.0.aar",
+          "url": "uikit-android-0.5.0.aar",
+          "size": 209721,
+          "sha512": "98aa893d14ab48fc868050644f4d59493ad3ef33dfd6f883a34b4561ce6a7299ace5ed6b068eafc915513b7dd2b3cea262773511fc15362b8830709245a8752d",
+          "sha256": "65e1c176d81325aac3be22efe59f9291ae7faacc72f0c5195b8d356b3fd4d6b7",
+          "sha1": "5096b9b8ed01f5628efa132567f34d1a6e359f43",
+          "md5": "fe3a024dc05b030983e65a2ef42c4463"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-extended"
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.9.2"
+          }
+        },
+        {
+          "group": "com.applooma",
+          "module": "rtc-android",
+          "version": {
+            "requires": "0.9.2"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.09.03"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uikit-android-0.5.0.aar",
+          "url": "uikit-android-0.5.0.aar",
+          "size": 209721,
+          "sha512": "98aa893d14ab48fc868050644f4d59493ad3ef33dfd6f883a34b4561ce6a7299ace5ed6b068eafc915513b7dd2b3cea262773511fc15362b8830709245a8752d",
+          "sha256": "65e1c176d81325aac3be22efe59f9291ae7faacc72f0c5195b8d356b3fd4d6b7",
+          "sha1": "5096b9b8ed01f5628efa132567f34d1a6e359f43",
+          "md5": "fe3a024dc05b030983e65a2ef42c4463"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "uikit-android-0.5.0-sources.jar",
+          "url": "uikit-android-0.5.0-sources.jar",
+          "size": 17213,
+          "sha512": "1427d023379558afdf71b0c2bfe8a006dc2c9bd0ebba11de8c1c9085d4ed459f62bfe37163abafb8d8e36e9e2ff4fd236e12ad5f9587bf02213402b13285a23b",
+          "sha256": "b2357e48cdd868a5d30baaa9e95b9e0245cbaba39820c295e92d65ecb29e0d4e",
+          "sha1": "62806f2402393b3ae22ce71f9bd37af7343f34f6",
+          "md5": "8e5a0137e137ff2ec48723f878458587"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "uikit-android-0.5.0-javadoc.jar",
+          "url": "uikit-android-0.5.0-javadoc.jar",
+          "size": 360659,
+          "sha512": "f8b582526d66b95e326af1b8386524f1f0b545e1db4bed29d8f29d769dac7c3dd865dab582d58e0040285e83d62e8c47644de908c842204b24cc028f4b1c594e",
+          "sha256": "54aa9f895f5ae95cb536ae49b98ce828d03d32106f5ee70872753f8b7983c88a",
+          "sha1": "f97df351ff8adda024e2869e148babba928197f0",
+          "md5": "d84c5ebb1022d4864f8a0b2ff5e4fe7d"
+        }
+      ]
+    }
+  ]
+}
