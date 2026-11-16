@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.applooma",
+    "module": "rtc-android",
+    "version": "0.9.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.applooma",
+          "module": "rtc-core-android",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rtc-android-0.9.2.aar",
+          "url": "rtc-android-0.9.2.aar",
+          "size": 582378,
+          "sha512": "67f22c4e4347621f20e11c97f199dc4699a328e19b366089124868240d6acde7a2728b2ba6532ea080aa6d44938fa3be5fc0b165cea020a96155cdcd4aee2b62",
+          "sha256": "0577ca47c901626286ebfdf43f02020383a6a60c94d16ddebad8df5e6eb5597a",
+          "sha1": "911d4c67cf263f5035e872e25348d24d6b02d487",
+          "md5": "9b8ca1aba8482d140862f8a95381488e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "com.applooma",
+          "module": "rtc-core-android",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rtc-android-0.9.2.aar",
+          "url": "rtc-android-0.9.2.aar",
+          "size": 582378,
+          "sha512": "67f22c4e4347621f20e11c97f199dc4699a328e19b366089124868240d6acde7a2728b2ba6532ea080aa6d44938fa3be5fc0b165cea020a96155cdcd4aee2b62",
+          "sha256": "0577ca47c901626286ebfdf43f02020383a6a60c94d16ddebad8df5e6eb5597a",
+          "sha1": "911d4c67cf263f5035e872e25348d24d6b02d487",
+          "md5": "9b8ca1aba8482d140862f8a95381488e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rtc-android-0.9.2-sources.jar",
+          "url": "rtc-android-0.9.2-sources.jar",
+          "size": 152044,
+          "sha512": "b6178b885e7762684185018428f75d44ffc5eacb824a9e8b680907babadfa3153dd6700070f475cf3af0c6262ab0245f5275c20cf32c60c5417203e1ce9b90f6",
+          "sha256": "3d608276a4f5ebec542e2a907a6bd26f03d6171549e748a039125101f1050d91",
+          "sha1": "5ad186a73299bf94ac39bcc0293afc98de253740",
+          "md5": "415f1640959d843855b2f0ee7c9a3a3a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rtc-android-0.9.2-javadoc.jar",
+          "url": "rtc-android-0.9.2-javadoc.jar",
+          "size": 588674,
+          "sha512": "4b36b23bb9ed39620008a58162c2be604be6bf19164e7375476ec0519ad4ad0c0c0d668e95a4aa92edee8e38ededd6d3c9a500c59893da559b9144ce8d321053",
+          "sha256": "85e78e05f4dae1874f98bbd18750224215d28e07946e49f17fbed70c15dca9ef",
+          "sha1": "5f6bb68b323ae75945d27a6376dc8d92aa16a338",
+          "md5": "4e88c31046d1ac63bda1ab9022a3f05d"
+        }
+      ]
+    }
+  ]
+}
